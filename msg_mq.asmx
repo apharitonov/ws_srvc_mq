@@ -1,0 +1,1 @@
+﻿<%@ WebService Language="C#" CodeBehind="msg_mq.asmx.cs" Class="ws_srvc_mq.Service1" %>

@@ -9,7 +9,7 @@ namespace ws_srvc_mq
     /// <summary>
     /// Summary description for Service1
     /// </summary>
-    [WebService(Namespace = "http://tempuri.org/")]
+    [WebService(Namespace = "http://dfr/")]
     [WebServiceBinding(ConformsTo = WsiProfiles.BasicProfile1_1)]
     [System.ComponentModel.ToolboxItem(false)]
     // To allow this Web Service to be called from script, using ASP.NET AJAX, uncomment the following line. 
@@ -24,8 +24,9 @@ namespace ws_srvc_mq
         }
 
         [WebMethod]
-        public string HelloWorld()
+        public string RcvMsg()
         {
+            MessageBase msg = new Message(MessageType.mtTest);
             return "Hello World";
         }
     }

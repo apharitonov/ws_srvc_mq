@@ -7,7 +7,7 @@ using System.Text;
 
 namespace ws_srvc_mq
 {
-    enum MessageType { mtTest = 0, mtUserMsg = 1}
+    public enum MessageType { mtTest = 0, mtUserMsg = 1}
 
     public class MessageBase
     {
@@ -35,11 +35,13 @@ namespace ws_srvc_mq
         public bool RecvMsg(MessageBase msg)
         {
             bool ret = false;
+            
             using (MessageQueue queue = MessageQueue.Create(@". \myqueue"))
             {
                 queue.Label = "First Queue";
                 
             }
+            
             return ret;
         }
         

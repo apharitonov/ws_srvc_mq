@@ -1,0 +1,4 @@
+C:\Users\apharito\Documents\GitHub\srvc_mq\ws_srvc_mq\ws_srvc_mq\bin\ws_srvc_mq.dll
+C:\Users\apharito\Documents\GitHub\srvc_mq\ws_srvc_mq\ws_srvc_mq\bin\ws_srvc_mq.pdb
+C:\Users\apharito\Documents\GitHub\srvc_mq\ws_srvc_mq\ws_srvc_mq\obj\Debug\ws_srvc_mq.dll
+C:\Users\apharito\Documents\GitHub\srvc_mq\ws_srvc_mq\ws_srvc_mq\obj\Debug\ws_srvc_mq.pdb
